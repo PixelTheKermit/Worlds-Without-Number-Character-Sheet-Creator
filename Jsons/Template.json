@@ -1,0 +1,129 @@
+{
+	"name": "John Doe",
+	"class": "",
+	"alignment": "",
+	"background": "",
+	"level": 1.0,
+	"hp": 1.0,
+	"ac": 0.0,
+	"ss": 0.0,
+	"attackBonus": 0.0,
+	"skillPoints": 0.0,
+	"attributes":
+		{
+			"str": 0,
+			"dex": 0,
+			"con": 0,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+		},
+	"skills":
+		{
+			"administer":
+				{
+					"mod": "int",
+					"val": -1.0
+				},
+			"connect":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"convince":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"craft":
+				{
+					"mod": "int",
+					"val": -1.0
+				},
+			"exert":
+				{
+					"mod": "con",
+					"val": -1.0
+				},
+			"heal":
+				{
+					"mod": "int",
+					"val": -1.0
+				},
+			"know":
+				{
+					"mod": "int",
+					"val": -1.0
+				},
+			"lead":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"magic":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"notice":
+				{
+					"mod": "wis",
+					"val": -1.0
+				},
+			"perform":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"pray":
+				{
+					"mod": "wis",
+					"val": -1.0
+				},
+			"punch":
+				{
+					"mod": "str",
+					"val": -1.0
+				},
+			"ride":
+				{
+					"mod": "dex",
+					"val": -1.0
+				},
+			"sail":
+				{
+					"mod": "int",
+					"val": -1.0
+				},
+			"shoot":
+				{
+					"mod": "dex",
+					"val": -1.0
+				},
+			"sneak":
+				{
+					"mod": "dex",
+					"val": -1.0
+				},
+			"stab":
+				{
+					"mod": "str",
+					"val": -1.0
+				},
+			"survive":
+				{
+					"mod": "wis",
+					"val": -1.0
+				},
+			"trade":
+				{
+					"mod": "cha",
+					"val": -1.0
+				},
+			"work":
+				{
+					"mod": "con",
+					"val": -1.0
+				}
+		}
+}

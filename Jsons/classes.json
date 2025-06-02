@@ -1,0 +1,149 @@
+[
+	{
+		"class": "Expert",
+		"description": "Experts, while seeming lacking in combat power, can find success where others may fail in non-combat situations that require diplomacy, stealth or perception. Additionally, they are able to learn quicker than other classes.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Attack bonus increases by 1 every 2 levels.
+
+Gain class abilities: Masterful Expertise & Quick Learner
+
+Gain an extra expert focus pick
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Cannot use arts or spellcasting
+
+Aren't as adept in combat as warriors.
+[/cell]
+[/table]"
+	},
+	{
+		"class": "Mage",
+		"description": 
+			"Although fraile and less combat-headed, mages are feared for their capability to perform spellcasting and magical arts. However, ther knowledge usually comes at a price.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Gain class ability: Arcane Tradition
+
+Gain the ability to use arts & spellcasting.
+
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Hit die is [lb](1 * level)d(6 * level)+(-1 * level + con * level)[rb]
+
+Attack bonus is only improved by 1 every 5 levels
+
+[/cell]
+[/table]"
+	},
+	{
+		"class": "Warrior",
+		"description": "Warriors dedicate their life to nothing but combat, and for this reason they tend to be more stronger than other classes. They also have the capability to find a weakpoint easily within an opponent.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Hit die is [lb](1 * level)d(6 * level)+(2 * level + con * level)[rb]
+
+Attack bonus is improved every level
+
+Starts with 1 attack bonus.
+
+Extra warrior focus pick at character creation
+
+Access to class abilities: Killing Blow & Veteran's Luck
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+No access to arts or spellcasting.
+[/cell]
+[/table]
+
+"
+	},
+	{
+		"class": "Adventurer (Partial Mage/Partial Mage)",
+		"description": "This type of adventurer has dedicated their life into studying two seperate traditions. They are not as adept as the fully dedicated mages who only studied one tradition, and they must take extra precaution in order to not break any taboos from their chosen traditions.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Ability to use arts & spellcasting.
+
+Can choose from two traditions.
+
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Hit die is [lb](1 * level)d(6 * level)+(-1 * level + con * level)[rb]
+
+Attack bonus is only improved by 1 every 5 levels.
+
+Cannot reach the maximum potential of a full mage.
+[/cell]
+[/table]"
+	},
+	{
+		"class": "Adventurer (Partial Expert/Partial Warrior)",
+		"description": "This adventurer has some combat experience, yet it's most likely not their main purpose. They may just be a bandit who is simply skilled in the usage of a blade, or simply someone who fights for fun and no other serious reason.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Hit die is [lb](1 * level)d(6 * level)+(+2 * level + con * level)[rb]
+
+Gain an attack bonus of +1 every second level
+
+Start with 1 attack bonus at level 1.
+
+Gain +1 attack bonus at level 5.
+
+Gain the class ability: Quick Learner
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Cannot reach the maximum potential of a full expert or warrior
+
+No access to arts or spellcasting.
+[/cell]
+[/table]"
+	},
+	{
+		"class": "Adventurer (Partial Expert/Partial Mage)",
+		"description": "This adventurer has some dedication to their chosen tradition, yet they haven't locked themselves away to fully study it, like most other full mages. As such, they don't appear as frail as most other mages.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Ability to use arts & spellcasting.
+
+Gain the class abilities: Quick Learner & Arcane Tradition
+
+Gain +1 attack bonus every 2nd level
+
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Cannot reach the maximum potential of a full mage or expert.
+[/cell]
+[/table]"
+	},
+	{
+		"class": "Adventurer (Partial Mage/Partial Warrior)",
+		"description": "This type of adventurer has studied magic, but where most mages fully rely on it to support in combat and may become useless once they're unable to cast, this one can always fallback to a weapon of their choice and reliably continue fighting.
+
+[table=2]
+[cell=1][b][u]Benefits[/u][/b]
+Ability to use arts & spellcasting.
+
+Gain the class ability: Arcane Tradition
+
+Hit die is [lb](1 * level)d(6 * level)+(+2 * level + con * level)[rb]
+
+Gain an attack bonus of +2 every second level
+
+Start with 1 attack bonus at level 1.
+
+Gain +1 attack bonus at level 5.
+
+[/cell]
+[cell=1][b][u]Drawbacks[/u][/b]
+Cannot reach the maximum potential of a full mage or warrior.
+[/cell]
+[/table]"
+	}
+]

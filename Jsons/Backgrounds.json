@@ -1,0 +1,582 @@
+[
+	{
+		"name": "Artisan",
+		"desc": "",
+		"freeSkills": [
+			"Craft-0"
+		],
+		"quickSkills": [
+			"Trade-0",
+			"Connect-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Connect",
+			"Convince",
+			"Craft",
+			"Craft",
+			"Exert",
+			"Know",
+			"Notice",
+			"Trade"
+		],
+	},
+	{
+		"name": "Barbarian",
+		"desc": "",
+		"freeSkills": [
+			"Survive-0"
+		],
+		"quickSkills": [
+			"Any Combat-0",
+			"Notice-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Exert",
+			"Lead",
+			"Notice",
+			"Punch",
+			"Sneak",
+			"Survive"
+		],
+	},
+	{
+		"name": "Carter",
+		"desc": "",
+		"freeSkills": [
+			"Ride-0"
+		],
+		"quickSkills": [
+			"Connect-0",
+			"Any Combat-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Craft",
+			"Exert",
+			"Notice",
+			"Ride",
+			"Survive",
+			"Trade"
+		],
+	},
+	{
+		"name": "Courtesan",
+		"desc": "",
+		"freeSkills": [
+			"Perform-0"
+		],
+		"quickSkills": [
+			"Notice-0",
+			"Connect-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Mental",
+			"+2 Physical",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Convince",
+			"Exert",
+			"Notice",
+			"Perform",
+			"Survive",
+			"Trade"
+		],
+	},
+	{
+		"name": "Criminal",
+		"desc": "",
+		"freeSkills": [
+			"Sneak-0"
+		],
+		"quickSkills": [
+			"Connect-0",
+			"Convince-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Physical",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Any Combat",
+			"Connect",
+			"Convince",
+			"Exert",
+			"Notice",
+			"Sneak",
+			"Trade"
+		],
+	},
+	{
+		"name": "Hunter",
+		"desc": "",
+		"freeSkills": [
+			"Shoot-0"
+		],
+		"quickSkills": [
+			"Survive-0",
+			"Sneak-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Exert",
+			"Heal",
+			"Notice",
+			"Ride",
+			"Shoot",
+			"Sneak",
+			"Survive"
+		],
+	},
+	{
+		"name": "Laborer",
+		"desc": "",
+		"freeSkills": [
+			"Work-0"
+		],
+		"quickSkills": [
+			"Connect-0",
+			"Exert-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+1 Any Stat",
+			"+1 Any Stat",
+			"+1 Any Stat",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Any Skill",
+			"Connect",
+			"Convince",
+			"Craft",
+			"Exert",
+			"Ride",
+			"Work"
+		],
+	},
+	{
+		"name": "Merchant",
+		"desc": "",
+		"freeSkills": [
+			"Trade-0"
+		],
+		"quickSkills": [
+			"Convince-0",
+			"Connect-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Mental",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Any Combat",
+			"Connect",
+			"Convince",
+			"Craft",
+			"Know",
+			"Notice",
+			"Trade"
+		],
+	},
+	{
+		"name": "Noble",
+		"desc": "",
+		"freeSkills": [
+			"Lead-0"
+		],
+		"quickSkills": [
+			"Connect-0",
+			"Administer-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Mental",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Any Combat",
+			"Connect",
+			"Convince",
+			"Know",
+			"Lead",
+			"Notice",
+			"Ride"
+		],
+	},
+	{
+		"name": "Nomad",
+		"desc": "",
+		"freeSkills": [
+			"Ride-0"
+		],
+		"quickSkills": [
+			"Survive-0",
+			"Any Combat-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Exert",
+			"Lead",
+			"Notice",
+			"Ride",
+			"Survive",
+			"Trade"
+		],
+	},
+	{
+		"name": "Peasant",
+		"desc": "",
+		"freeSkills": [
+			"Exert-0"
+		],
+		"quickSkills": [
+			"Sneak-0",
+			"Survive-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Physical",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Connect",
+			"Exert",
+			"Craft",
+			"Notice",
+			"Sneak",
+			"Survive",
+			"Trade",
+			"Work"
+		],
+	},
+	{
+		"name": "Performer",
+		"desc": "",
+		"freeSkills": [
+			"Exert-0"
+		],
+		"quickSkills": [
+			"Sneak-0",
+			"Survive-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Physical",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Connect",
+			"Exert",
+			"Craft",
+			"Notice",
+			"Sneak",
+			"Survive",
+			"Trade",
+			"Work"
+		],
+	},
+	{
+		"name": "Physician",
+		"desc": "",
+		"freeSkills": [
+			"Heal-0"
+		],
+		"quickSkills": [
+			"Know-0",
+			"Notice-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Mental",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Craft",
+			"Heal",
+			"Know",
+			"Notice",
+			"Convince",
+			"Trade"
+		],
+	},
+	{
+		"name": "Priest",
+		"desc": "",
+		"freeSkills": [
+			"Pray-0"
+		],
+		"quickSkills": [
+			"Convince-0",
+			"Know-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Physical",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Connect",
+			"Know",
+			"Lead",
+			"Heal",
+			"Convince",
+			"Pray",
+			"Pray"
+		],
+	},
+	{
+		"name": "Sailor",
+		"desc": "",
+		"freeSkills": [
+			"Sail-0"
+		],
+		"quickSkills": [
+			"Exert-0",
+			"Notice-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Craft",
+			"Exert",
+			"Heal",
+			"Notice",
+			"Perform",
+			"Sail"
+		],
+	},
+	{
+		"name": "Scholar",
+		"desc": "",
+		"freeSkills": [
+			"Know-0"
+		],
+		"quickSkills": [
+			"Heal-0",
+			"Administer-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Mental",
+			"+2 Mental",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Heal",
+			"Craft",
+			"Know",
+			"Notice",
+			"Perform",
+			"Pray",
+			"Convince"
+		],
+	},
+	{
+		"name": "Slave",
+		"desc": "",
+		"freeSkills": [
+			"Sneak-0"
+		],
+		"quickSkills": [
+			"Survive-0",
+			"Exert-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Administer",
+			"Any Combat",
+			"Any Skill",
+			"Convince",
+			"Exert",
+			"Sneak",
+			"Survive",
+			"Work"
+		],
+	},
+	{
+		"name": "Soldier",
+		"desc": "",
+		"freeSkills": [
+			"Any Combat-0"
+		],
+		"quickSkills": [
+			"Exert-0",
+			"Survive-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Physical",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Any Combat",
+			"Exert",
+			"Lead",
+			"Notice",
+			"Ride",
+			"Sneak",
+			"Survive"
+		],
+	},
+	{
+		"name": "Thug",
+		"desc": "",
+		"freeSkills": [
+			"Any Combat-0"
+		],
+		"quickSkills": [
+			"Convince-0",
+			"Connect-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Mental",
+			"+2 Physical",
+			"+2 Physical",
+			"Connect",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Any Combat",
+			"Connect",
+			"Convince",
+			"Exert",
+			"Notice",
+			"Sneak",
+			"Survive"
+		],
+	},
+	{
+		"name": "Wanderer",
+		"desc": "",
+		"freeSkills": [
+			"Survive-0"
+		],
+		"quickSkills": [
+			"Sneak-0",
+			"Notice-0"
+		],
+		"growth": [
+			"+1 Any Stat",
+			"+2 Physical",
+			"+2 Physical",
+			"+2 Mental",
+			"Exert",
+			"Any Skill"
+		],
+		"learning": [
+			"Any Combat",
+			"Connect",
+			"Notice",
+			"Perform",
+			"Ride",
+			"Sneak",
+			"Survive",
+			"Work"
+		],
+	}
+]
