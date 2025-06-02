@@ -104,6 +104,9 @@ func _on_background_edit_text_changed(new_text: String) -> void:
 func _on_allignment_edit_text_changed(new_text: String) -> void:
 	Data.alignment = new_text
 
+func UpdateBackground():
+	_backgroundEdit.text = Data.background
+
 static func ToMod(val: int) -> int:
 	if val <= 3:
 		return -2
@@ -186,7 +189,6 @@ func _on_allignment_select_return_allignment(alignment: String) -> void:
 func _on_allign_select_pressed() -> void:
 	_alignSelect.show()
 	Dim()
-
 
 func _on_allignment_edit_focus_exited() -> void:
 	_allignmentEdit.text = Data.alignment

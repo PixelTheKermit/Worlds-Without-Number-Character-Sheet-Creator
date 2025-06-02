@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://basg1er5j48h"]
+[gd_scene load_steps=13 format=3 uid="uid://basg1er5j48h"]
 
 [ext_resource type="Script" uid="uid://dvskecdraf8k8" path="res://character_creator.gd" id="1_fix6t"]
 [ext_resource type="Script" uid="uid://cchg6g1bfnaq6" path="res://AttributeLineEdit.gd" id="2_aqjyc"]
@@ -20,6 +20,9 @@ corner_radius_bottom_left = 2
 font_size = 32
 shadow_size = 4
 shadow_color = Color(0, 0, 0, 0.501961)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7jp8n"]
+font_size = 32
 
 [sub_resource type="LabelSettings" id="LabelSettings_jnasw"]
 font_size = 8
@@ -786,6 +789,7 @@ text = "Chaotic
 Evil"
 
 [node name="BackgroundSelect" parent="Panel" instance=ExtResource("4_lg66x")]
+visible = false
 offset_left = 106.0
 offset_top = 27.0
 offset_right = 1068.0
@@ -813,6 +817,11 @@ layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 0
 
+[node name="Label" type="Label" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+text = "Hello?"
+label_settings = SubResource("LabelSettings_7jp8n")
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2"]
 layout_mode = 2
 size_flags_vertical = 3
@@ -838,6 +847,13 @@ text = "Free Skills"
 [node name="HSeparator" type="HSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+
 [node name="VSeparator" type="VSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer"]
 layout_mode = 2
 
@@ -850,6 +866,13 @@ layout_mode = 2
 text = "Quick Skills"
 
 [node name="HSeparator" type="HSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer2/ScrollContainer"]
 layout_mode = 2
 
 [node name="VSeparator2" type="VSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer"]
@@ -866,6 +889,13 @@ text = "Growth"
 [node name="HSeparator" type="HSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer3"]
 layout_mode = 2
 
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer3"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer3/ScrollContainer"]
+layout_mode = 2
+
 [node name="VSeparator3" type="VSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer"]
 layout_mode = 2
 
@@ -878,6 +908,13 @@ layout_mode = 2
 text = "Learning"
 
 [node name="HSeparator" type="HSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer4"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer4"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer4/ScrollContainer"]
 layout_mode = 2
 
 [node name="HSeparator2" type="HSeparator" parent="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2"]
@@ -977,6 +1014,8 @@ filters = PackedStringArray("*.json")
 [connection signal="pressed" from="Panel/AllignmentSelect/VBoxContainer/Container/GridContainer/LawfulEvil" to="Panel/AllignmentSelect" method="_on_lawful_evil_pressed"]
 [connection signal="pressed" from="Panel/AllignmentSelect/VBoxContainer/Container/GridContainer/NeutralEvil" to="Panel/AllignmentSelect" method="_on_neutral_evil_pressed"]
 [connection signal="pressed" from="Panel/AllignmentSelect/VBoxContainer/Container/GridContainer/ChaoticEvil" to="Panel/AllignmentSelect" method="_on_chaotic_evil_pressed"]
+[connection signal="pressed" from="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer2/Button2" to="Panel/BackgroundSelect" method="_on_roll_pressed"]
+[connection signal="pressed" from="Panel/BackgroundSelect/VBoxContainer/Container/HBoxContainer/VBoxContainer2/HBoxContainer2/Button" to="Panel/BackgroundSelect" method="_on_button_pressed"]
 [connection signal="canceled" from="ColorRect/SaveDialog" to="." method="_on_save_dialog_canceled"]
 [connection signal="file_selected" from="ColorRect/SaveDialog" to="." method="_on_save_dialog_file_selected"]
 [connection signal="canceled" from="ColorRect/LoadDialog" to="." method="_on_load_dialog_canceled"]
