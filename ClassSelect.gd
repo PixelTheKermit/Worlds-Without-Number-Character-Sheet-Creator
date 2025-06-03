@@ -6,15 +6,12 @@ var Classes = preload("res://Jsons/classes.json")
 @onready var classDesc = $VBoxContainer/Container/HBoxContainer/VBoxContainer/RichTextLabel
 @onready var className = $"VBoxContainer/Container/HBoxContainer/VBoxContainer/ClassName"
 
-var _char
+@onready var _char = $"../.."
 
-func Init(char):
-	_char = char
+var _chosenClass = ""
 
 func _ready():
 	LoadClasses()
-
-var _chosenClass = ""
 
 func _change(clas):
 	_chosenClass = clas.class
@@ -31,7 +28,11 @@ func LoadClasses():
 			_change(v)
 		)
 	_change(Classes.data[0])
-	
+
+func FindAndSwitch(iName: String):
+	for i in Classes.data:
+		if i.class == iName:
+			_change(i)
 
 func _on_button_pressed() -> void:
 	_char.UpdateClass(_chosenClass)

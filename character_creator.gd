@@ -29,14 +29,15 @@ enum LoadError {
 @onready var _loadDialog = $ColorRect/LoadDialog
 #endregion
 
+@onready var _tabCont = $Panel/HBoxContainer/TabContainer
 @onready var attributes = $Panel/HBoxContainer/TabContainer/Attributes
 @onready var _classSelect = $Panel/ClassSelect
 @onready var _alignSelect = $Panel/AllignmentSelect
+@onready var _backgroundSelect = $Panel/BackgroundSelect
 
 func _ready() -> void:
+	_tabCont.current_tab = 0
 	RNG.randomize()
-	attributes.InitAttributes(self)
-	_classSelect.Init(self)
 	LoadSheet(_template)
 
 func LoadSheet(json: JSON) -> LoadError:
@@ -49,6 +50,9 @@ func LoadSheet(json: JSON) -> LoadError:
 	_classEdit.text = Data.class
 	_allignmentEdit.text = Data.alignment
 	_backgroundEdit.text = Data.background
+	
+	_classSelect.FindAndSwitch(Data.class)
+	_backgroundSelect.FindAndSwitch(Data.background)
 	
 	attributes.LoadSheet()
 	RecalcHitDie()
@@ -192,3 +196,7 @@ func _on_allign_select_pressed() -> void:
 
 func _on_allignment_edit_focus_exited() -> void:
 	_allignmentEdit.text = Data.alignment
+
+func _on_background_button_pressed() -> void:
+	_backgroundSelect.show()
+	Dim()

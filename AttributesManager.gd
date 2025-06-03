@@ -8,10 +8,7 @@ extends Control
 
 @onready var _skillPoints = $HBoxContainer/VBoxContainer2/HBoxContainer/SkillPoints
 
-var _char
-
-func InitAttributes(charCreator):
-	_char = charCreator
+@onready var _char = $"../../../.."
 
 func LoadSheet():
 	_skillPoints.text = str(int(_char.Data.skillPoints))

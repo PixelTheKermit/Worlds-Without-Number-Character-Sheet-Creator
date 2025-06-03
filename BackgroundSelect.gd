@@ -17,7 +17,12 @@ var _choicesLearning = []
 
 var _selected = ""
 
-func flipToBackground(background: Dictionary):
+func FindAndSwitch(backName: String):
+	for bg in _backgrounds.data:
+		if bg.name == backName:
+			FlipToBackground(bg)
+
+func FlipToBackground(background: Dictionary):
 	_bgDetails.text = background.desc
 	_name.text = background.name
 	_selected = background.name
@@ -57,12 +62,12 @@ func _ready() -> void:
 		butt.text = background.name
 		
 		butt.pressed.connect(func():
-			flipToBackground(background)
+			FlipToBackground(background)
 		)
 		
 		_selectContainer.add_child(butt)
 	
-	flipToBackground(_backgrounds.data[0])
+	FlipToBackground(_backgrounds.data[0])
 
 func _on_roll_pressed() -> void:
 	for i in _choicesGrowth + _choicesLearning:
@@ -96,3 +101,4 @@ func _on_button_pressed() -> void:
 	hide()
 	_root.Data.background = _selected
 	_root.UpdateBackground()
+	_root.Undim()
