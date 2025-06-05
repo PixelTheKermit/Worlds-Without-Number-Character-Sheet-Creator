@@ -1,0 +1,274 @@
+[
+	{
+		"type": "Weapon",
+		"name": "Axe, Hand",
+		"encumberance": 1,
+		"value":
+			{
+				"gp": 0,
+				"sp": 10,
+				"cp": 0
+			},
+		"traits": "T",
+		"range": "10/30",
+		"damage": "1d6",
+		"shock": "1/AC 15",
+		"attributes": "Str/Dex"
+	},
+	{
+		"type": "Weapon",
+		"name": "Axe, War",
+		"damage": "1d10",
+		"shock": "3/AC 15",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "2H",
+		"value":
+			{
+				"gp": 0,
+				"sp": 50,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Blackjack",
+		"damage": "1d4",
+		"shock": "None",
+		"attributes": "Str/Dex",
+		"range": "N/A",
+		"traits": "S, LL",
+		"value":
+			{
+				"gp": 0,
+				"sp": 1,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Bow, Large",
+		"damage": "1d8",
+		"shock": "None",
+		"attributes": "Dex",
+		"range": "100/600",
+		"traits": "2H, R, PM",
+		"value":
+			{
+				"gp": 0,
+				"sp": 20,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Bow, Small",
+		"damage": "1d6",
+		"shock": "None",
+		"attributes": "Dex",
+		"range": "50/300",
+		"traits": "2H, R, PM",
+		"value":
+			{
+				"gp": 0,
+				"sp": 20,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Claw Blades",
+		"damage": "1d6",
+		"shock": "2/AC 13",
+		"attributes": "Str/Dex",
+		"range": "N/A",
+		"traits": "S",
+		"value":
+			{
+				"gp": 0,
+				"sp": 10,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Club",
+		"damage": "1d4",
+		"shock": "None",
+		"attributes": "Str/Dex",
+		"range": "10/30",
+		"traits": "T, LL",
+		"value":
+			{
+				"gp": 0,
+				"sp": 0,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Club, Great",
+		"damage": "1d10",
+		"shock": "2/AC 15",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "2H",
+		"value":
+			{
+				"gp": 0,
+				"sp": 1,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Crossbow",
+		"damage": "1d10",
+		"shock": "N/A",
+		"attributes": "Dex",
+		"range": "100/300",
+		"traits": "2H, R, PM",
+		"value":
+			{
+				"gp": 0,
+				"sp": 10,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Dagger",
+		"damage": "1d4",
+		"shock": "1/AC 15",
+		"attributes": "Str/Dex",
+		"range": "30/60",
+		"traits": "S, T, PM",
+		"value":
+			{
+				"gp": 0,
+				"sp": 3,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Halberd",
+		"damage": "1d10",
+		"shock": "2/AC 15",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "2H, L",
+		"value":
+			{
+				"gp": 0,
+				"sp": 50,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Hammer, Great",
+		"damage": "1d10",
+		"shock": "2/AC 18",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "2H",
+		"value":
+			{
+				"gp": 0,
+				"sp": 50,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Hammer, War",
+		"damage": "1d8",
+		"shock": "1/AC 18",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "",
+		"value":
+			{
+				"gp": 0,
+				"sp": 30,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Hurlant, Great",
+		"damage": "3d10",
+		"shock": "None",
+		"attributes": "Dex",
+		"range": "600/2400",
+		"traits": "S",
+		"value":
+			{
+				"gp": 0,
+				"sp": 10,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Club",
+		"damage": "1d4",
+		"shock": "None",
+		"attributes": "Str/Dex",
+		"range": "10/30",
+		"traits": "T, LL",
+		"value":
+			{
+				"gp": 0,
+				"sp": 0,
+				"cp": 0
+			},
+		"encumberance": 1,
+	},
+	{
+		"type": "Weapon",
+		"name": "Club, Great",
+		"damage": "1d10",
+		"shock": "2/AC 15",
+		"attributes": "Str",
+		"range": "N/A",
+		"traits": "2H",
+		"value":
+			{
+				"gp": 0,
+				"sp": 1,
+				"cp": 0
+			},
+		"encumberance": 2,
+	},
+	{
+		"type": "Weapon",
+		"name": "Crossbow",
+		"damage": "1d10",
+		"shock": "N/A",
+		"attributes": "Dex",
+		"range": "100/300",
+		"traits": "2H, R, PM",
+		"value":
+			{
+				"gp": 0,
+				"sp": 10,
+				"cp": 0
+			},
+		"encumberance": 1,
+	}
+]

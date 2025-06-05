@@ -35,6 +35,10 @@ enum LoadError {
 @onready var _alignSelect = $Panel/AllignmentSelect
 @onready var _backgroundSelect = $Panel/BackgroundSelect
 
+@onready var _inventory = $Panel/HBoxContainer/TabContainer/Inventory
+
+@onready var _licenses = $Panel/Licenses
+
 func _ready() -> void:
 	_tabCont.current_tab = 0
 	RNG.randomize()
@@ -55,6 +59,7 @@ func LoadSheet(json: JSON) -> LoadError:
 	_backgroundSelect.FindAndSwitch(Data.background)
 	
 	attributes.LoadSheet()
+	_inventory.Load()
 	RecalcHitDie()
 	UpdateAttackBonus()
 	
@@ -200,3 +205,11 @@ func _on_allignment_edit_focus_exited() -> void:
 func _on_background_button_pressed() -> void:
 	_backgroundSelect.show()
 	Dim()
+
+func _on_licenses_pressed() -> void:
+	_licenses.show()
+	Dim()
+
+func _on_licenses_close() -> void:
+	_licenses.hide()
+	Undim()

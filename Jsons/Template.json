@@ -9,14 +9,22 @@
 	"ss": 0.0,
 	"attackBonus": 0.0,
 	"skillPoints": 0.0,
+	"inventory": [],
+	"placeholderInventory": "",
+	"coins":
+		{
+			"sp": 0.0,
+			"cp": 0.0,
+			"gp": 0.0
+		},
 	"attributes":
 		{
-			"str": 0,
-			"dex": 0,
-			"con": 0,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
+			"str": 0.0,
+			"dex": 0.0,
+			"con": 0.0,
+			"int": 0.0,
+			"wis": 0.0,
+			"cha": 0.0,
 		},
 	"skills":
 		{

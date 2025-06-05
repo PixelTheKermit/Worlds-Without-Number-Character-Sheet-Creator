@@ -1,21 +1,54 @@
-[gd_scene format=3 uid="uid://b05jw7gt2k5ss"]
+[gd_scene load_steps=2 format=3 uid="uid://b05jw7gt2k5ss"]
 
-[node name="PanelContainer" type="PanelContainer"]
+[ext_resource type="Script" uid="uid://p2h7g3glottj" path="res://Item.gd" id="1_tnite"]
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+[node name="Item" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -733.0
+offset_bottom = -617.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tnite")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="HBoxContainer2"]
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "📦"
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Wowie"
+text = "Oh look at that a label"
 
-[node name="Info" type="Button" parent="HBoxContainer2"]
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "❓"
+placeholder_text = "0-9999"
 
-[node name="Erase" type="Button" parent="HBoxContainer2"]
+[node name="Info" type="Button" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "🗑️"
+text = "✒️"
 
-[connection signal="pressed" from="HBoxContainer2/Erase" to="." method="_on_erase_pressed"]
+[node name="Dropdown" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "⬇️"
+
+[node name="Panel" type="Panel" parent="VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/Panel"]
+layout_mode = 2
+offset_top = -4.0
+offset_right = 419.0
+offset_bottom = -4.0
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Info" to="." method="_on_info_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Dropdown" to="." method="_on_dropdown_pressed"]
